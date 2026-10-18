@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="CajaArequipa.UI.OperacionesPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ui="clr-namespace:CajaArequipa.UI">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="4,0,4,16" Spacing="12">
+
+            <VerticalStackLayout Spacing="2">
+                <Label Style="{StaticResource TituloPagina}" Text="Operaciones" />
+                <Label Style="{StaticResource Subtitulo}" Text="Cola de operaciones pendientes y reversiones" />
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                <Border Grid.Column="0" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Pendientes" />
+                        <Label x:Name="lblPendientes" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Se pueden revertir" />
+                        <Label x:Name="lblRevertibles" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Registrar operación" />
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Código de operación" />
+                            <Entry x:Name="entCodigo" Placeholder="Ej. OP-001" Style="{StaticResource EntradaLimpia}">
+                                <Entry.Behaviors>
+                                    <ui:EntradaTipadaBehavior MaxLongitud="20" Tipo="Codigo" />
+                                </Entry.Behaviors>
+                            </Entry>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Tipo de operación" />
+                            <Picker x:Name="pkTipo" Style="{StaticResource SelectorLimpio}" Title="Seleccione el tipo" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Monto (S/)" />
+                            <Entry x:Name="entMonto" Keyboard="Numeric" Placeholder="Ej. 150.50" Style="{StaticResource EntradaLimpia}">
+                                <Entry.Behaviors>
+                                    <ui:EntradaTipadaBehavior MaxDecimales="2" MaxLongitud="6" Tipo="Decimal" />
+                                </Entry.Behaviors>
+                            </Entry>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Agencia" />
+                            <Picker x:Name="pkAgencia" Style="{StaticResource SelectorLimpio}" Title="Seleccione la agencia" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <FlexLayout JustifyContent="Start" Wrap="Wrap">
+                        <Button Margin="0,0,8,8" Clicked="BtnRegistrar_Clicked" Style="{StaticResource BotonPrimario}" Text="+ Registrar operación" />
+                        <Button Margin="0,0,8,8" Clicked="BtnProcesar_Clicked" Style="{StaticResource BotonSecundario}" Text="Procesar siguiente" />
+                        <Button Margin="0,0,8,8" Clicked="BtnRevertir_Clicked" Style="{StaticResource BotonSecundario}" Text="Revertir última" />
+                    </FlexLayout>
+                    <Label x:Name="lblMensaje" FontSize="13" />
+                    <Label x:Name="lblDetalle" FontSize="12" Style="{StaticResource Subtitulo}" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Operaciones pendientes (orden de llegada)" />
+                    <Border x:Name="vacio" Style="{StaticResource Hundido}">
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="6">
+                            <Image HeightRequest="36" HorizontalOptions="Center" Source="ico_operaciones_on.png" WidthRequest="36" />
+                            <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="No hay operaciones pendientes" />
+                            <Label HorizontalTextAlignment="Center" Style="{StaticResource Subtitulo}" Text="Registra una operación para que entre a la cola." />
+                        </VerticalStackLayout>
+                    </Border>
+                    <CollectionView x:Name="lstPendientes" HeightRequest="320" IsVisible="False" ItemTemplate="{StaticResource PlantillaItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="CajaArequipa.UI.RutasPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ui="clr-namespace:CajaArequipa.UI">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="4,0,4,16" Spacing="12">
+
+            <VerticalStackLayout Spacing="2">
+                <Label Style="{StaticResource TituloPagina}" Text="Rutas" />
+                <Label Style="{StaticResource Subtitulo}" Text="Sincronización entre agencias" />
+            </VerticalStackLayout>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Ruta mínima de sincronización" />
+                <Label Style="{StaticResource Subtitulo}" Text="Camino de menor tiempo entre dos agencias, usando solo enlaces disponibles (Dijkstra)." />
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Agencia de origen" />
+                            <Picker x:Name="pkOrigen" Style="{StaticResource SelectorLimpio}" Title="Seleccione la agencia de origen" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Agencia de destino" />
+                            <Picker x:Name="pkDestino" Style="{StaticResource SelectorLimpio}" Title="Seleccione la agencia de destino" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Button Clicked="BtnCalcular_Clicked" Style="{StaticResource BotonPrimario}" Text="Calcular ruta mínima" />
+                    <Label x:Name="lblMensaje" FontSize="13" />
+                    <Label x:Name="lblDetalle" FontSize="12" Style="{StaticResource Subtitulo}" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Turno de sincronización" />
+                <Label Style="{StaticResource Subtitulo}" Text="Lista circular: al llegar a la última agencia, el turno vuelve a la primera." />
+                    <Button Clicked="BtnTurno_Clicked" Style="{StaticResource BotonSecundario}" Text="Siguiente turno" HorizontalOptions="Start" />
+                    <Label x:Name="lblTurno" FontSize="13" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>

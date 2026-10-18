@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="CajaArequipa.UI.InicioPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ui="clr-namespace:CajaArequipa.UI">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="4,0,4,16" Spacing="12">
+
+            <VerticalStackLayout Spacing="2">
+                <Label Style="{StaticResource TituloPagina}" Text="Inicio" />
+                <Label Style="{StaticResource Subtitulo}" Text="Resumen general del sistema" />
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="12" RowDefinitions="Auto,Auto" RowSpacing="12">
+                <Border Grid.Column="0" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Agencias" />
+                        <Label x:Name="lblAgencias" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Conexiones" />
+                        <Label x:Name="lblConexiones" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="0" Grid.Row="1" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Operaciones pendientes" />
+                        <Label x:Name="lblPendientes" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="1" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Operaciones procesadas" />
+                        <Label x:Name="lblProcesadas" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Estado del sistema" />
+                    <Label x:Name="lblEstado" FontSize="13" />
+                    <Label x:Name="lblCarpeta" Style="{StaticResource Subtitulo}" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>
