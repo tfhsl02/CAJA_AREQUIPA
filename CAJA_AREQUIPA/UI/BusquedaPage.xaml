@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="CajaArequipa.UI.BusquedaPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ui="clr-namespace:CajaArequipa.UI">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="4,0,4,16" Spacing="12">
+
+            <VerticalStackLayout Spacing="2">
+                <Label Style="{StaticResource TituloPagina}" Text="Búsqueda" />
+                <Label Style="{StaticResource Subtitulo}" Text="Consulta de operaciones por código" />
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                <Border Grid.Column="0" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Operaciones en el árbol" />
+                        <Label x:Name="lblTotal" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Altura del árbol" />
+                        <Label x:Name="lblAltura" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Buscar operación" />
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Código de operación" />
+                            <Entry x:Name="entCodigo" Placeholder="Ej. OP-001" Style="{StaticResource EntradaLimpia}">
+                                <Entry.Behaviors>
+                                    <ui:EntradaTipadaBehavior MaxLongitud="20" Tipo="Codigo" />
+                                </Entry.Behaviors>
+                            </Entry>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Button Clicked="BtnBuscar_Clicked" Style="{StaticResource BotonPrimario}" Text="Buscar operación" />
+                    <Label x:Name="lblMensaje" FontSize="13" />
+                    <Label x:Name="lblDetalle" FontSize="12" Style="{StaticResource Subtitulo}" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Árbol de operaciones (ordenado por código)" />
+                    <Border x:Name="vacioArbol" Style="{StaticResource Hundido}">
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="6">
+                            <Image HeightRequest="36" HorizontalOptions="Center" Source="ico_busqueda_on.png" WidthRequest="36" />
+                            <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="Aún no hay operaciones" />
+                            <Label HorizontalTextAlignment="Center" Style="{StaticResource Subtitulo}" Text="Las operaciones registradas aparecerán aquí." />
+                        </VerticalStackLayout>
+                    </Border>
+                    <CollectionView x:Name="lstArbol" HeightRequest="320" IsVisible="False" ItemTemplate="{StaticResource PlantillaItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Bitácora de procesadas (la más reciente primero)" />
+                    <Border x:Name="vacioBitacora" Style="{StaticResource Hundido}">
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="6">
+                            <Image HeightRequest="36" HorizontalOptions="Center" Source="ico_operaciones_on.png" WidthRequest="36" />
+                            <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="Nada procesado todavía" />
+                            <Label HorizontalTextAlignment="Center" Style="{StaticResource Subtitulo}" Text="Cuando proceses una operación quedará registrada aquí." />
+                        </VerticalStackLayout>
+                    </Border>
+                    <CollectionView x:Name="lstBitacora" HeightRequest="320" IsVisible="False" ItemTemplate="{StaticResource PlantillaItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>
