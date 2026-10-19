@@ -1,7 +1,64 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\servicios\\procesadoroperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\servicios\\procesadoroperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\windows\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\windows\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\windows\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\globalxmlns.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\estructuras\\pilareversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\estructuras\\pilareversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\estructuras\\listasimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\estructuras\\listasimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\estructuras\\arboloperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\estructuras\\arboloperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +66,187 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AndroidManifest.xml",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Android\\AndroidManifest.xml",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Android\\AndroidManifest.xml",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Android\\AndroidManifest.xml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-10-19T22:37:49.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:37:46.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:37:45.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProcesadorOperaciones.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Servicios\\ProcesadorOperaciones.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Servicios\\ProcesadorOperaciones.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Servicios\\ProcesadorOperaciones.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Servicios\\ProcesadorOperaciones.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:37:35.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\app.manifest",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Windows\\app.manifest",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\app.manifest",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Windows\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2026-10-19T22:37:23.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Windows\\Package.appxmanifest",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\Package.appxmanifest",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Windows\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2026-10-19T22:37:20.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-10-19T22:37:18.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GlobalXmlns.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\GlobalXmlns.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\GlobalXmlns.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\GlobalXmlns.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\GlobalXmlns.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:37:12.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\App.xaml.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\App.xaml.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:36:59.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PilaReversiones.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:16:38.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ListaSimple.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:08:32.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ArbolOperaciones.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:30:08.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\MauiProgram.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\MauiProgram.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\MauiProgram.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:15:42.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:15:38.018Z"
             }
           ]
         }

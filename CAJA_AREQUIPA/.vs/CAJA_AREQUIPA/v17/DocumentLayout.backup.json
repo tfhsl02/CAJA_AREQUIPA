@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\estructuras\\pilareversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\estructuras\\pilareversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\estructuras\\listasimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\estructuras\\listasimple.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\estructuras\\arboloperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\estructuras\\arboloperaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|c:\\universidad\\estructura de datos\\ef\\caja_arequipa\\caja_arequipa\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D73BE57-9750-4A2A-B833-E447C002F393}|CAJA_AREQUIPA\\CAJA_AREQUIPA.csproj|solutionrelative:caja_arequipa\\platforms\\windows\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +30,74 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PilaReversiones.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Estructuras\\PilaReversiones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:16:38.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ListaSimple.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Estructuras\\ListaSimple.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T22:08:32.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArbolOperaciones.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Estructuras\\ArbolOperaciones.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:30:08.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\MauiProgram.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\MauiProgram.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\MauiProgram.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:15:42.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeDocumentMoniker": "CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "ToolTip": "C:\\UNIVERSIDAD\\ESTRUCTURA DE DATOS\\EF\\CAJA_AREQUIPA\\CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "RelativeToolTip": "CAJA_AREQUIPA\\Platforms\\Windows\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-19T19:15:38.018Z"
             }
           ]
         }

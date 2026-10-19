@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CAJA_AREQUIPA")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d7a320e8ff4c0bb6cc6eaf0785bfb6afa24c4a7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CAJA_AREQUIPA")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CAJA_AREQUIPA")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
