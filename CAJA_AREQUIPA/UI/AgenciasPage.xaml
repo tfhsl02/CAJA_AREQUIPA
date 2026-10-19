@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="CajaArequipa.UI.AgenciasPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ui="clr-namespace:CajaArequipa.UI">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="4,0,4,16" Spacing="12">
+
+            <VerticalStackLayout Spacing="2">
+                <Label Style="{StaticResource TituloPagina}" Text="Agencias" />
+                <Label Style="{StaticResource Subtitulo}" Text="Administra las sucursales del sistema" />
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                <Border Grid.Column="0" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Total de agencias" />
+                        <Label x:Name="lblTotal" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Activas" />
+                        <Label x:Name="lblActivas" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Registrar agencia" />
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Código de agencia" />
+                            <Entry x:Name="entCodigo" Placeholder="Ej. AG-01" Style="{StaticResource EntradaLimpia}">
+                                <Entry.Behaviors>
+                                    <ui:EntradaTipadaBehavior MaxLongitud="10" Tipo="Codigo" />
+                                </Entry.Behaviors>
+                            </Entry>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Nombre" />
+                            <Entry x:Name="entNombre" Placeholder="Nombre de la agencia" Style="{StaticResource EntradaLimpia}">
+                                <Entry.Behaviors>
+                                    <ui:EntradaTipadaBehavior MaxLongitud="60" Tipo="Texto" />
+                                </Entry.Behaviors>
+                            </Entry>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Dirección" />
+                            <Entry x:Name="entDireccion" Placeholder="Dirección de la sucursal" Style="{StaticResource EntradaLimpia}">
+                                <Entry.Behaviors>
+                                    <ui:EntradaTipadaBehavior MaxLongitud="80" Tipo="Texto" />
+                                </Entry.Behaviors>
+                            </Entry>
+                        </VerticalStackLayout>
+                    </Border>
+                    <Button Clicked="BtnRegistrar_Clicked" Style="{StaticResource BotonPrimario}" Text="+ Registrar agencia" />
+                    <Label x:Name="lblMensaje" FontSize="13" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Agencias registradas" />
+                    <Label x:Name="lblAvisos" FontSize="12" IsVisible="False" TextColor="{StaticResource White}" />
+                    <Border x:Name="vacio" Style="{StaticResource Hundido}">
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="6">
+                            <Image HeightRequest="36" HorizontalOptions="Center" Source="ico_agencias_on.png" WidthRequest="36" />
+                            <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="Aún no hay agencias" />
+                            <Label HorizontalTextAlignment="Center" Style="{StaticResource Subtitulo}" Text="Registra una agencia para comenzar a gestionar las sucursales." />
+                        </VerticalStackLayout>
+                    </Border>
+                    <CollectionView x:Name="lstAgencias" HeightRequest="320" IsVisible="False" ItemTemplate="{StaticResource PlantillaItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="CajaArequipa.UI.ConexionesPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:ui="clr-namespace:CajaArequipa.UI">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="4,0,4,16" Spacing="12">
+
+            <VerticalStackLayout Spacing="2">
+                <Label Style="{StaticResource TituloPagina}" Text="Conexiones" />
+                <Label Style="{StaticResource Subtitulo}" Text="Enlaces de sincronización entre agencias" />
+            </VerticalStackLayout>
+
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="12">
+                <Border Grid.Column="0" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Total de conexiones" />
+                        <Label x:Name="lblTotal" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+                <Border Grid.Column="1" Grid.Row="0" Padding="12" Style="{StaticResource Tarjeta}">
+                    <VerticalStackLayout Spacing="4">
+                        <Label Style="{StaticResource Subtitulo}" Text="Disponibles" />
+                        <Label x:Name="lblDisponibles" Style="{StaticResource Cifra}" Text="0" />
+                    </VerticalStackLayout>
+                </Border>
+            </Grid>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Registrar o administrar conexión" />
+                <Label Style="{StaticResource Subtitulo}" Text="Para activar o desactivar un enlace, elija sus dos agencias." />
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Agencia de origen" />
+                            <Picker x:Name="pkOrigen" Style="{StaticResource SelectorLimpio}" Title="Seleccione la agencia de origen" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Agencia de destino" />
+                            <Picker x:Name="pkDestino" Style="{StaticResource SelectorLimpio}" Title="Seleccione la agencia de destino" />
+                        </VerticalStackLayout>
+                    </Border>
+                    <Border Style="{StaticResource Campo}">
+                        <VerticalStackLayout Spacing="0">
+                            <Label Style="{StaticResource EtiquetaCampo}" Text="Tiempo de sincronización (segundos)" />
+                            <Entry x:Name="entTiempo" Keyboard="Numeric" Placeholder="Ej. 5" Style="{StaticResource EntradaLimpia}">
+                                <Entry.Behaviors>
+                                    <ui:EntradaTipadaBehavior MaxDecimales="2" MaxLongitud="5" Tipo="Decimal" />
+                                </Entry.Behaviors>
+                            </Entry>
+                        </VerticalStackLayout>
+                    </Border>
+                    <FlexLayout JustifyContent="Start" Wrap="Wrap">
+                        <Button Margin="0,0,8,8" Clicked="BtnRegistrar_Clicked" Style="{StaticResource BotonPrimario}" Text="+ Registrar conexión" />
+                        <Button Margin="0,0,8,8" Clicked="BtnActivar_Clicked" Style="{StaticResource BotonSecundario}" Text="Marcar disponible" />
+                        <Button Margin="0,0,8,8" Clicked="BtnDesactivar_Clicked" Style="{StaticResource BotonSecundario}" Text="Marcar no disponible" />
+                    </FlexLayout>
+                    <Label x:Name="lblMensaje" FontSize="13" />
+                </VerticalStackLayout>
+            </Border>
+
+            <Border Style="{StaticResource Tarjeta}">
+                <VerticalStackLayout Spacing="10">
+                    <Label Style="{StaticResource Titulo}" Text="Conexiones registradas" />
+                    <Border x:Name="vacio" Style="{StaticResource Hundido}">
+                        <VerticalStackLayout HorizontalOptions="Center" Spacing="6">
+                            <Image HeightRequest="36" HorizontalOptions="Center" Source="ico_conexiones_on.png" WidthRequest="36" />
+                            <Label FontAttributes="Bold" FontSize="16" HorizontalTextAlignment="Center" Text="Aún no hay conexiones" />
+                            <Label HorizontalTextAlignment="Center" Style="{StaticResource Subtitulo}" Text="Registra una conexión entre dos agencias para formar la red." />
+                        </VerticalStackLayout>
+                    </Border>
+                    <CollectionView x:Name="lstConexiones" HeightRequest="320" IsVisible="False" ItemTemplate="{StaticResource PlantillaItem}" />
+                </VerticalStackLayout>
+            </Border>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentView>
